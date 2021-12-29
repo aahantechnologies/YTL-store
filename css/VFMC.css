@@ -1,0 +1,276 @@
+/* sarres page coding start */
+.content_margin{
+    margin-top: 2%;
+    margin-bottom: 4%
+    }
+    .product_heading{
+    padding-left: 15px;
+    }
+    .bkbdr a:nth-last-child(2) {
+    border-right: #666666 2px solid;
+    padding: 0 5px;
+    }
+    .bkbdr a:hover{
+    text-decoration: none;
+    }
+    .my-banner02 {
+    background: url(../image/banner/FooterImage.png) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 400px;
+    }
+    .w3ls_dresses_grid_left_grid h3 {
+    font-size: 1.5em;
+    color: #212121;
+    padding-left: 2em;
+    position: relative;
+    margin: 1em;
+    text-align: left;
+    }
+    .w3ls_dresses_grid_left_grid_sub {
+    border: 1px solid #E1E1E1;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 1.5em 1em;
+    }
+    .ecommerce_color ul li, .ecommerce_dres-type ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    }
+    .ecommerce_color ul li a, .ecommerce_dres-type ul li a {
+    font-size: .95em;
+    color: #212121;
+    text-decoration: none;
+    }
+    .w3ls_dresses_grid_left_grid ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    }
+    .w3ls_dresses_grid_left_grid h3:before {
+    content: '';
+    background: #00e58b;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    }
+    .ecommerce_color ul li a i {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 20px;
+    background: red;
+    }
+    .ecommerce_color ul li:nth-child(2) a i {
+    background: brown;
+    }
+    .ecommerce_color ul li:nth-child(3) a i {
+    background: #ffd400;
+    }
+    .ecommerce_color ul li:nth-child(4) a i {
+    background: #d382ee;
+    }
+    .ecommerce_color ul li:nth-child(5) a i {
+    background: #ff5e00;
+    }
+    .ecommerce_color ul li:nth-child(6) a i {
+    background: #0000ff;
+    }
+    .dresses_img_hover {
+    margin-top: 40px;
+    position: relative;
+    }
+    .dresses_img_hover_pos {
+    position: absolute;
+    top: 26%;
+    left: 24px;
+    }
+    .dresses_img_hover_pos h4 {
+    color: #fff;
+    font-size: 25px;
+    }
+    .dresses_img_hover_pos h4 span {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 45px;
+    }
+    .dresses_img_hover_pos h4 {
+    color: #fff;
+    font-size: 25px;
+    }
+    /* product image code start */
+    .product-img {
+        box-shadow: 0 0 2px #006738;    
+    }
+    .top-product-grids, .women-grids {
+    text-align: center;
+    margin: 10px 0;
+    }
+     .row .product .vm-product-media-container .p-mask {
+    opacity: 0;
+    visibility: hidden;
+    background: transparent;
+    width: 100%;
+    -webkit-transform: translate3d( 0px, 100%, 0px );
+    -moz-transform: translate3d( 0px, 100%, 0px );
+    -ms-transform: translate3d( 0px, 100%, 0px );
+    -o-transform: translate3d( 0px, 100%, 0px );
+    transform: translate3d( 0px, 100%, 0px );
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    text-align: center;
+    }
+    .product-img:hover .p-mask, .row .product:hover .p-mask {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d( 0px, 0px, 0px );
+    -moz-transform: translate3d( 0px, 0px, 0px );
+    -ms-transform: translate3d( 0px, 0px, 0px );
+    -o-transform: translate3d( 0px, 0px, 0px );
+    transform: translate3d( 0px, 0px, 0px );
+    left: 0;
+    }
+    .product-img img {
+        width: 100%;
+        height: 277px;
+    }
+    .product-img form {
+    display: block;
+    margin-top: 0em;
+    }
+    .product-img input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+    }
+    .product-img input, textarea, select, button {
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    }
+    .product-img input {
+    -webkit-appearance: textfield;
+    background-color: #006738;
+    box-shadow: 0 0 2px #006738;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;    
+    width: 100%;
+    min-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    }
+    .product-img input[type="hidden" i] {
+    display: none;
+    }
+    .product-img input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+    }
+    button.w3ls-cart.pw3ls-cart {
+    background: #ec112b;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    text-align: left;
+    }
+    button, select {
+    text-transform: none;
+    }
+    button {
+    overflow: visible;
+    }
+    button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    }
+    button.w3ls-cart.pw3ls-cart .fa {
+    margin-right: 10px;
+    }
+    .fa {
+    display: inline-block;
+    font: FontAwesome !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    .fa-cart-plus:before {
+    content: "\f217";
+    }
+    i.yellow-star {
+    color: #ffac00;
+    }
+    .top-product-grids h4, .women-grids h4 {
+    font-size: 14px;
+    color: #442c2e;
+    margin: 10px 0;
+    }
+    .top-product-grids h5, .women-grids h5 {
+    font-size: 15px;
+    font-weight: 700;
+    }
+    input[type=checkbox], input[type=radio] {
+    margin: 4px 10px 0 0 !important ;
+    margin-top: 1px\9;
+    line-height: normal;
+    }
+    select#dropdesign {
+        width: max-content;
+    height: 30px;
+    color: black;
+    margin-bottom: 15px !important;
+    }
+
+    /* sarres page coding end */
+    	@media screen and (min-width: 320px)  and (max-width:767px)
+    	{
+    	    .my-banner02 {
+   
+    min-height: 112px;
+}
+.navbar {
+    position: relative;
+    min-height: 0px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+    	}
+    		@media screen and (min-width: 400px)  and (max-width:825px)
+		{
+	
+.header__center_middle button {
+   
+    color: white;
+    padding-left: 16px;
+}
+		}
+    
+    @media screen and (max-width: 1024px)
+    {
+        .product-img img {
+    width: 65%;
+    height: 65%;
+    margin-bottom: 0px;
+}
+    }
